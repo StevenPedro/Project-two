@@ -1,0 +1,4 @@
+import React from 'react'
+import Sertão from '93771027_665907567317115_8810241327380824064_o';
+
+export default () => <img src={93771027_665907567317115_8810241327380824064_o}/>

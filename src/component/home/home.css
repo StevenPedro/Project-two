@@ -1,0 +1,67 @@
+header {
+  background-image: url(https://static.whow.com.br/wp-content/uploads/2019/10/Foto-Pxhere_Pernambuco-capa.jpg);
+  background-repeat: no-repeat;
+  width:101%;
+  height:200px;
+  font-size: 18px;
+  font-weight: bold;
+  color:black;
+  justify-content: center;
+  align-items: center; 
+}
+main{
+  width:100%;
+  height:200px;
+  font-size: 18px;
+  color:white;
+  background-color: black; 
+  margin: 0;
+  padding: 10px;
+}
+
+main h3 p{
+  justify-content: center;
+  align-items: center;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+  left: 0;
+ /* only for demonstration, should be removed */
+}
+article p{
+  float: center;
+  margin: 10; 
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  bottom: 80%;
+
+}
+img{
+  float: right;
+width: 27%;
+left:0;
+height: 340px; 
+
+}
+
+/* Style the footer */
+footer {
+  background-color:black;
+  width: 100%;
+  bottom: 0px;
+  right:80px;
+  padding: 50px;
+  left: 0;
+  text-align: center;
+  color: white;
+}
